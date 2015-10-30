@@ -1,13 +1,5 @@
 Rails.application.routes.draw do
 
-  get 'pages/index'
-
-  get 'pages/home'
-
-  get 'pages/profile'
-
-  get 'pages/explore'
-
   # Define Route URL
   root 'pages#index'
 
